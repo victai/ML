@@ -1,0 +1,12 @@
+python 3.5.2
+
+toolkits:
+	jieba 0.39
+	gensim 3.2.0
+	numpy 1.14.0
+
+由於model太大，會先從dropbox 把model載下來再測試
+
+執行方式：
+	./test.sh	[testing data path] [output path]
+
